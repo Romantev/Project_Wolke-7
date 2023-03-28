@@ -14,17 +14,27 @@ html {
 }
 
 main {
-    background-image: url(./mahdi-soheili-XncGiwY8F2M-unsplash.jpg);
+    background-image: url(./andreas-weilguny-2uAVyybMrHI-unsplash.jpg);
     height: 100vh;
-    width: 100vw;
     background-size: cover;
     font-family: alkatra;
     text-align: center;
     padding: 1%;
-    color: white;
 }
 
-h1 {
+a {
     margin-top: 70px;
     font-size: clamp(3.5rem, 5.0vw, 8.0rem);
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+}
+
+a:hover {
+    color: rgb(216, 216, 216);
+    font-size: clamp(3.5rem, 5.2vw, 8.2rem);
+}
+
+nav {
+    padding-top: 40px;
 }
