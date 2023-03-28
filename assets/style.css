@@ -1,0 +1,30 @@
+@font-face {
+    font-family: alkatra;
+    src: url(./Alkatra-VariableFont_wght.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+main {
+    background-image: url(./mahdi-soheili-XncGiwY8F2M-unsplash.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    font-family: alkatra;
+    text-align: center;
+    padding: 1%;
+    color: white;
+}
+
+h1 {
+    margin-top: 70px;
+    font-size: clamp(3.5rem, 5.0vw, 8.0rem);
+}
